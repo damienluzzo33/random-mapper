@@ -1,3 +1,4 @@
+
 export class NewMap {
     private googleMap: google.maps.Map;
     
