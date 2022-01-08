@@ -1,5 +1,5 @@
 //* here are our "instructions" - aka the interface - for all of our classes that tells them how they can be used as arguments to our addMarker method below
-interface MapItem {
+export interface MapItem {
     location: {
         latitude: number;
         longitude: number;

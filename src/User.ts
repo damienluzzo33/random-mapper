@@ -1,7 +1,8 @@
-
 import faker from "faker/dist/faker.js";
+import { MapItem } from "./NewMap";
 
-export class User {
+//* "implements" says that User can be an argument for our addMarker method inside of NewMap because the MapItem interface is used as the argument for addMarker
+export class User implements MapItem {
     name: string;
     location: {
         latitude: number;

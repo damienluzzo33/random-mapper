@@ -1,7 +1,8 @@
-
 import faker from "faker/dist/faker.js";
+import { MapItem } from "./NewMap";
 
-export class Company {
+//* "implements" says that Company can be an argument for our addMarker method inside of NewMap because the MapItem interface is used as the argument for addMarker
+export class Company implements MapItem {
     company: string;
     catchPhrase: string;
     location: {
